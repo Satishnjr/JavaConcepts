@@ -25,6 +25,8 @@ public class GlobalvsLocalVariables {
 		int j = 20;
 		int k = 30;
 		
+		
+		
 	}
 
 }
