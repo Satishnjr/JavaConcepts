@@ -15,16 +15,20 @@ public class HashMapConcept {
 		hm.put(3, "RFT");
 		hm.put(4, "RPA");
 
+		System.out.println("output1");
 		System.out.println(hm.get(1)); // Selenium
-		System.out.println(hm.get(4)); // print null--no error, bocz it can contain null value
+		System.out.println(hm.get(4)); // RPA
 
 		// To print all the values from Hashmap
 		for (Entry m : hm.entrySet()) { // hm.entryset() will store complete all the values available in HashMap
+			System.out.println("output2");
 			System.out.println(m.getKey() + " " + m.getValue());
 
 		}
+		System.out.println("output3");
 		System.out.println(hm);
 		hm.remove(3); // it doesnt maintain the order
+		System.out.println("output4");
 		System.out.println(hm);
 
 		HashMap<Integer, Employee> emp = new HashMap<Integer, Employee>();
@@ -40,6 +44,7 @@ public class HashMapConcept {
 		for (Entry<Integer, Employee> m : emp.entrySet()) {
 			int key = m.getKey();
 			Employee e = m.getValue();
+			System.out.println("output5");
 			System.out.println("Employee " + key + " Info: ");
 			System.out.println(e.name + " " + e.age + " " + e.dept);
 

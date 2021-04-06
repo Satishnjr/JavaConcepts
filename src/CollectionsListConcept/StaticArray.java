@@ -8,7 +8,7 @@ public class StaticArray {
 		a[0] = 10;
 		a[1] = 11;
 		a[2] = 12;
-		System.out.println(a[0]);
+		System.out.println(a[1]);
 	}
 
 }
